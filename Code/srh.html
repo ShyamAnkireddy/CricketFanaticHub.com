@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketFanaticsHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <label>
+        <input type="checkbox" id="menuToggle">
+        <div class="toggle">
+            <span class="top common"></span>
+            <span class="mid common"></span>
+            <span class="bottom common"></span>
+        </div>
+        <div class="container">
+            <h1 id="menu">Menu</h1>
+            <ul>
+                <li><a href="cwc2023.html">CWC 2023</a></li>
+                <li><a href="srh.html">Sunrisers Hyderabad</a></li>
+                <li><a href="mi.html">Mumbai Indians</a></li>
+                <li><a href="rcb.html">Royal Challengers Bangalore</a></li>
+                <li><a href="dc.html">Delhi Capitals</a></li>
+                <li><a href="home.html#aboutUs">About & Contact Us</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </label>  
+    <div class="title" id="pageTitle"><p>CricketFanaticHub.<span>com</span></p></div>
+    <div class="icons">
+        <a href="home.html" ><i class="fa-solid fa-house-user"></i></a>
+        <a href="cart.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+
+    <div class="small">
+        <h2 class="featured" id="cwc2023">SRH Official Merchandise</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/srh/product2-1.jpg">
+                <h4>SRH Official jersey</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1099</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Official jersey', 1099)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Official jersey', 1099)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-2.jpg">
+                <h4>SRH Track pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 549</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Track pant', 549)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Track pant', 549)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-3.jpg">
+                <h4>SRH team cap</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 299</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH team cap', 299)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH team cap', 299)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-4.jpg">
+                <h4>SRH Polo T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 649</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Polo T-Shirt', 649)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Polo T-Shirt', 649)" class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/srh/product2-5.jpg">
+                <h4>SRH women T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH women T-Shirt', 599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH women T-Shirt', 599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-6.jpg">
+                <h4>SRH men T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH men T-Shirt', 599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH men T-Shirt', 599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-7.jpg">
+                <h4>SRH coffee mug</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 399</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH coffee mug', 399)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH coffee mug', 399)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/srh/product2-8.jpg">
+                <h4>SRH T-Shirt & Shorts</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1199</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH T-Shirt & Shorts', 1199)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH T-Shirt & Shorts', 1199)" class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <p class="coming-soon">More products coming soon!</p>
+    </div>
+    
+    <div class="top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div> 
+
+    <div id="billContainer" class="bill-details">
+        <h2>Order Summary</h2>
+        <p id="billDetails"></p>
+    </div>
+
+    <div id="cartPopup" class="cart-popup"></div>
+
+</body>
+</html>

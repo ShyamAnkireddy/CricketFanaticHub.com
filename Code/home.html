@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketFanaticsHub</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <label>
+        <input type="checkbox" id="menuToggle">
+        <div class="toggle">
+            <span class="top common"></span>
+            <span class="mid common"></span>
+            <span class="bottom common"></span>
+        </div>
+        <div class="container">
+            <h1 id="menu">Menu</h1>
+            <ul>
+                <li><a href="cwc2023.html">CWC 2023</a></li>
+                <li><a href="srh.html">Sunrisers Hyderabad</a></li>
+                <li><a href="mi.html">Mumbai Indians</a></li>
+                <li><a href="rcb.html">Royal Challengers Bangalore</a></li>
+                <li><a href="dc.html">Delhi Capitals</a></li>
+                <li><a href="#aboutUs">About & Contact Us</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </label>  
+    <div class="title" id="pageTitle"><p>CricketFanaticHub.<span>com</span></p></div>
+    <div class="icons">
+        <a href="cart.html" ><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+
+    <div class="greeting">
+        <div>Welcome to <span>CricketFanaticHub!</span></div>
+        <p>Your ultimate destination for all things cricket.<br>Explore the latest updates, follow your favorite teams, and immerse yourself in the world of cricket fandom.</p>
+    </div> 
+    <div class="side">
+        <img src="Images/cricket.jpg">
+    </div>   
+    <div class="container1">
+        <div class="slider">
+            <div class="image">
+                <img src="Images/cwc23.jpg">
+    
+                <div class="Button">
+                    <a href="cwc2023.html" class="btn">Explore</a>
+                </div>
+            </div>
+            <div class="details">
+                   <p>Upto 50% off on CWC 2023 Merchandise (Limited*)</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="image">
+                <img src="Images/kit.jpg">
+    
+                <div class="Button">
+                    <a href="#gear" class="btn">Explore</a>
+                </div>
+            </div>
+            <div class="details">
+                   <p>Essential gear for every cricket enthusiast</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="image">
+                <img src="Images/collectibles.jpg">
+    
+                <div class="Button">
+                    <a href="#collect" class="btn">Explore</a>
+                </div>
+            </div>
+            <div class="details">
+                   <p>Premium cricket collectibles for dedicated fans</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="small">
+        <h2 class="featured">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/product1.jpg">
+                <h4>CWC 2023 India Jersey</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1199</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('CWC 2023 India Jersey', 1199)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('CWC 2023 India Jersey', 1199)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product2.jpg">
+                <h4>CWC 2023 Mug</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 499</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('CWC 2023 Mug', 499)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('CWC 2023 Mug', 499)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product3.jpg">
+                <h4>SRH Circular Coaster</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 399</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Circular Coaster', 399)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Circular Coaster', 399)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/product4.jpg">
+                <h4>SRH Women Black T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <p>&#8377; 599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Women Black T-Shirt', 599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Women Black T-Shirt', 599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+        <h2 class="featured" id="gear">Premium Cricket Gear</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/gear/gearproduct-1.jpg">
+                <h4>Cricket Bat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('Cricket Bat', 1599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('Cricket Bat', 1599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/gear/gearproduct-2.jpg">
+                <h4>WS Cricket Kit</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 6499</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('WS Cricket Kit', 6499)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('WS Cricket Kit', 6499)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/gear/gearproduct-3.jpg">
+                <h4>Nivia Sports Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('Nivia Sports Shoes', 1599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('Nivia Sports Shoes', 1599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/gear/gearproduct-4.jpg">
+                <h4>Cricket Helmet</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 1699</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('Cricket Helmet', 1699)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('Cricket Helmet', 1699)" class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="featured" id="collect">Exclusive Cricket Collectibles</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="Images/collect/collect1.jpg">
+                <h4>CWC 2023 Keychain</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 299</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('CWC 2023 Keychain', 299)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('CWC 2023 Keychain', 299)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/collect/collect2.jpg">
+                <h4>SRH Wall Clock</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 899</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('SRH Wall Clock', 899)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('SRH Wall Clock', 899)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/collect/collect3.jpg">
+                <h4>GT Wall Poster</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 599</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('GT Wall Poster', 599)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('GT Wall Poster', 599)" class="buy">Buy Now</button>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="Images/collect/collect4.jpg">
+                <h4>MI Tote Bag</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>&#8377; 399</p>
+                <div class="row">
+                    <button type="button" onclick="addToCart('MI Tote Bag', 399)">Add to Cart</button>
+                    <button type="button" onclick="buyNow('MI Tote Bag', 399)" class="buy">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div> 
+
+    <div id="billContainer" class="bill-details">
+        <h2>Order Summary</h2>
+        <p id="billDetails"></p>
+    </div>
+
+    <div id="cartPopup" class="cart-popup"></div>
+
+    
+    <div id="aboutUs" class="about-us">
+        <div class="about-content">
+            <h2 class="us">About Us</h2>
+            <p>Welcome to CricketFanaticHub.com, your ultimate destination for all things cricket! We are passionate about cricket and dedicated to providing cricket enthusiasts with the latest updates, high-quality merchandise, and a platform to immerse themselves in the world of cricket fandom.</p>
+            <p>At CricketFanaticHub, we curate a collection of premium cricket gear, exclusive collectibles, and official merchandise from your favorite teams. Whether you are a dedicated fan or a casual enthusiast, we have something special for everyone.</p>
+            <p>Explore our website to discover essential gear, limited-edition collectibles, and merchandise from top cricket teams like Sunrisers Hyderabad, Mumbai Indians, Royal Challengers Bangalore, and Chennai Super Kings. Stay tuned for exciting offers, discounts, and the latest additions to our collection!</p>
+        </div>
+        <div class="contact-icons">
+            <h2 class="us">Contact Us</h2>
+            <p>Have questions or suggestions? Reach out to us!</p>
+            <div class="contact-icon">
+                <a href="cricketfanatishub@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                <a href="cricketfanatichub@insta" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="cricketfanatichub@x" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="cricketfanatichub@contact" target="_blank"><i class="fa-solid fa-square-phone"></i></i></a>
+                <a href="cricketfanatichub@whatsapp" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="top" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </div> 
+    
+</body>
+</html>
